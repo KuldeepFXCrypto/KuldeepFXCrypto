@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KuldeepFXCrypto</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#000;
+      color:#fff;
+      line-height:1.6;
+    }
+
+    header{
+      background:#0a0a0a;
+      padding:20px 10%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      border-bottom:1px solid gold;
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+
+    .logo{
+      font-size:28px;
+      font-weight:bold;
+      color:gold;
+    }
+
+    nav a{
+      color:#fff;
+      margin-left:20px;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:gold;
+    }
+
+    .hero{
+      height:90vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+      background:linear-gradient(to right,#000,#111);
+    }
+
+    .hero-content h1{
+      font-size:60px;
+      color:gold;
+      margin-bottom:20px;
+    }
+
+    .hero-content p{
+      font-size:22px;
+      margin-bottom:30px;
+      color:#ccc;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:14px 30px;
+      background:gold;
+      color:#000;
+      text-decoration:none;
+      font-weight:bold;
+      border-radius:30px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#fff;
+      transform:scale(1.05);
+    }
+
+    section{
+      padding:80px 10%;
+    }
+
+    .section-title{
+      text-align:center;
+      font-size:40px;
+      color:gold;
+      margin-bottom:50px;
+    }
+
+    .services{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:30px;
+    }
+
+    .card{
+      background:#111;
+      padding:30px;
+      border-radius:15px;
+      border:1px solid #222;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      border-color:gold;
+      transform:translateY(-10px);
+    }
+
+    .card h3{
+      color:gold;
+      margin-bottom:15px;
+    }
+
+    .about{
+      text-align:center;
+      max-width:900px;
+      margin:auto;
+      color:#ccc;
+      font-size:18px;
+    }
+
+    .contact{
+      text-align:center;
+    }
+
+    .contact p{
+      margin:15px 0;
+      font-size:18px;
+    }
+
+    footer{
+      background:#0a0a0a;
+      text-align:center;
+      padding:20px;
+      border-top:1px solid gold;
+      color:#aaa;
+    }
+
+    @media(max-width:768px){
+
+      .hero-content h1{
+        font-size:40px;
+      }
+
+      .hero-content p{
+        font-size:18px;
+      }
+
+      nav{
+        display:none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">KuldeepFXCrypto</div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Forex & Crypto Trading</h1>
+
+      <p>
+        Professional Signals • Trading Education • Investment Guidance
+      </p>
+
+      <a href="https://wa.me/917340343478" class="btn">
+        Join WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services">
+
+      <div class="card">
+        <h3>Forex Signals</h3>
+        <p>
+          High accuracy forex trading signals with risk management.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Crypto Signals</h3>
+        <p>
+          Daily crypto trading updates and premium entry signals.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Trading Education</h3>
+        <p>
+          Learn technical analysis, price action, and smart trading.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Investment Guidance</h3>
+        <p>
+          Long-term investment support for crypto and forex markets.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+
+    <div class="about">
+      <p>
+        KuldeepFXCrypto is a professional forex and crypto trading
+        platform focused on helping traders grow with smart strategies,
+        accurate signals, and trading education.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact">
+
+      <p>📞 WhatsApp: 7340343478</p>
+
+      <p>📧 Email: kuldeepratawal03@gmail.com</p>
+
+      <p>📲 Telegram: @KuldeepFXCrypto</p>
+
+      <br>
+
+      <a href="https://t.me/KuldeepFXCrypto" class="btn">
+        Join Telegram
+      </a>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2026 KuldeepFXCrypto | All Rights Reserved
+  </footer>
+
+</body>
+</html>
